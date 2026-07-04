@@ -9,58 +9,81 @@
 </head>
 
 <body>
-    <header>
-        <strong>SMARTBUDGET</strong>
-        <nav>
-            <ul>
-                <li><a href="#caracteristicas">Características</a></li>
-                <li><a href="#como funciona">Cómo funciona</a></li>
-                <li><a href="#precios">Precios</a></li>
-            </ul>
-        </nav>
-        <a href="#registrarse">Registrarse</a>
+
+    <!-- Menú principal y Barra de navegación -->
+
+    <header class="header">
+        <div class="header-container">
+            <strong class="header-logo">SMARTBUDGET</strong>
+            <nav class="header-nav">
+                <ul class="header-menu">
+                    <li class="header-item"><a href="#caracteristicas" class="header-link">Caracteristicas</a></li>
+                    <li class="header-item"><a href="#comofunciona" class="header-link">Cómo funciona</a></li>
+                    <li class="header-item"><a href="#precios" class="header-link">Precios</a></li>
+                </ul>
+            </nav>
+
+            <!-- Botón registro -->
+            <div class="header-action">
+                <a href="#" class="btn btn-primary">Registrarse</a>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <section>
-            <h1>Gestiona tus finanzas sin estrés</h1>
-            <p>La app automatiza tus presupuestos, sigue tus gastos diarios y te ayuda a cumplir tus metas de ahorro</p>
+
+    <!-- Contenedor Hero -->
+    <main class="content">
+        <section class="Hero">
+            <div class="Hero-text container">
+                <h1 class="Hero-title">Gestiona tus <br> finanzas sin estrés</h1>
+                <p class="Hero-subtitle container">La app automatiza tus presupuestos, sigue tus <br>gastos diarios y te ayuda a cumplir tus metas de ahorro</p>
+                <a href="#" class="btn btn-secundary">Comenzar gratis</a>
+            </div>
+
+
+            <!-- Mockup interactivo de apoyo -->
+            <figure>
+                <span class="mockup-icon">★</span>
+            </figure>
         </section>
 
-        <figure>
-            <span>★</span>
-        </figure>
 
-        <section id="Caracteristicas">
-            <h2>Todo lo que necesitas saber en un solo lugar</h2>
+        <!-- Barra de navegación -->
+        <section id="Caracteristicas" class="features">
+            <h2 class="features-title">Todo lo que necesitas saber en un solo lugar</h2>
+
+            <div class="features-grid">
+
+
+                <!-- Componentes independientes para caracteristicas -->
+
+                <article class="card">
+                    <div class="card-icon-holder"></div>
+                    <h3 class="card-title">Titulo_tarjeta1</h3>
+                    <p class="card-text">Párrafo descriptivo sobre las características del servicio</p>
+                </article>
+
+                <article class="card card-featured">
+                    <div class="card-icon-holder"></div>
+                    <h3 class="card-title-features">Titulo_tarjeta2</h3>
+                    <p class="card-text-features">Párrafo descriptivo sobre las características del servicio</p>
+                    <span class="card-badge">Tarjeta Modificador BEM</span>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon-holder"></div>
+                    <h3 class="card-title">Titulo_tarjeta3</h3>
+                    <p class="card-text">Párrafo descriptivo sobre las características del servicio</p>
+                </article>
+            </div>
         </section>
-
-        <div>
-            <article>
-                <figure></figure>
-                <h3>Titulo_tarjeta1</h3>
-                <p>Párrafo descriptivo sobre las caracteristicas del servicio</p>
-            </article>
-
-            <article>
-                <figure></figure>
-                <h3>Titulo_tarjeta2</h3>
-                <p>Párrafo descriptivo sobre las caracteristicas del servicio</p>
-                <span>Tarjeta Modificador BEM</span>
-            </article>
-
-            <article>
-                <figure></figure>
-                <h3>Titulo_tarjeta3</h3>
-                <p>Párrafo descriptivo sobre las caracteristicas del servicio</p>
-            </article>
-        </div>
     </main>
 
-    <footer>
-        <p> &copy; 2026 SmartBudget. Todos los derechos reservados.</p>
-        <nav>
-            <a href="#">Privacidad y Términos</a>
+    <!-- Pie de la app -->
+    <footer class="footer">
+        <p class="footer-copy"> &copy; 2026 SmartBudget. Todos los derechos reservados.</p>
+        <nav class="footer-nav">
+            <a href="#" class="footer-link">Privacidad y Términos</a>
         </nav>
     </footer>
 
