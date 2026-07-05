@@ -1,0 +1,23 @@
+/* Componentes globales de uso reutilizable (BOTONES) */
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn--primary {
+    background-color: #2ECC71;
+    color: white;
+    padding: 14px 32px;
+}
+
+.btn--secundary {
+    background-color: #2ECC71;
+    color: white;
+    top: 400px;
+    left: 100px;
+    position: absolute;
+}

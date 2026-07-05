@@ -1,4 +1,13 @@
-/* Jerarquia BEM para aplicación de los estilos */ SOLO REFERENCIA
+/* Jerarquia BEM para aplicación de los estilos */ 
+
+- Bloques: . .header .hero .btn .features .card
+- Elementos: .header_container, .header_logo, .header_menu, .header_link .hero_text-container, .hero_title, .hero_subtitle, .hero_mockup, .hero_mockup-icon .features_title, .features_grid.card_icon-holder, .card_title, .card_text .footer_container, .footer_link
+- Modificadores: .btn--primary .btn--secundary .card--featured
+- Separacion de responsabilidades:
+-CSS -> estilos con BEM.
+
+/*
+
 
 /* Colores globales  */
 :root {
@@ -29,7 +38,6 @@ body {
     color: #333333;
     line-height: 1.8px;
 }
-
 
 
 a {
