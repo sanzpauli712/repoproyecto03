@@ -1,0 +1,23 @@
+/* Componentes Reutilizables (Botones) */
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+
+    &--primary {
+        background-color: $color-secundario;
+        color: white;
+        padding: 14px 32px;
+    }
+
+    &--secundary {
+        background-color: $color-secundario;
+        color: rgb(255, 255, 255);
+        top: 400px;
+        left: 100px;
+        position: absolute;
+    }
+}

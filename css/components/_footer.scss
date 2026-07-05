@@ -1,0 +1,19 @@
+/* Componente FOOTER */
+.footer {
+    &_container {
+        background-color: rgb(26, 37, 48);
+        padding: 40px 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        border-bottom: 1px solid #E5E5E5;
+        color: white;
+    }
+
+    &_link {
+        color: #FFFFFF;
+        text-decoration: underline;
+    }
+}

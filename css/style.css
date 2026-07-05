@@ -1,11 +1,13 @@
+@charset "UTF-8";
 /* Variables Globales SASS  */
-/*  Estilos Base */
+/* Estilos Base - Reseteo universal */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Estilos Base - Tipografías y etiquetas generales */
 body {
   background-color: white;
   font-family: "Inter", sans-serif;
@@ -26,7 +28,7 @@ p {
   line-height: 1.5;
 }
 
-/*  Componentes Reutilizables (Botones) */
+/* Componentes Reutilizables (Botones) */
 .btn {
   display: inline-block;
   padding: 12px 28px;
@@ -48,9 +50,7 @@ p {
   position: absolute;
 }
 
-
-
-/*  Componente Header */
+/* Componente Header */
 .header {
   background-color: rgb(217, 217, 217);
   padding: 20px 80px;
@@ -80,7 +80,7 @@ p {
   font-style: italic;
 }
 
-/*  Componente HERO */
+/* Componente HERO */
 .hero {
   display: flex;
   justify-content: space-between;
@@ -124,7 +124,7 @@ p {
   color: #FFFFFF;
 }
 
-/*  Componente FEATURES */
+/* Componente FEATURES & TARJETAS */
 .features {
   text-align: center;
   margin-top: 120px;
@@ -144,7 +144,6 @@ p {
   padding: 0 40px;
 }
 
-/*  Componente TARJETAS */
 .card {
   background-color: #F8F9FA;
   border-radius: 12px;
@@ -172,9 +171,6 @@ p {
 .card_text {
   font-size: 15px;
   color: #495057;
-}
-.card {
-  /* Modificador de Tarjeta Destacada con anidamiento limpio */
 }
 .card--featured {
   background-color: #1A2530;
