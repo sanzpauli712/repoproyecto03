@@ -46,3 +46,62 @@
         color: $color-blanco;
     }
 }
+
+/*  RESPONSIVE: Ajuste de lectura para iPhone 16 */
+@media (max-width: 768px) {
+    line-height: 1.6;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /*Ocupa toda la pantalla del celular*/
+    overflow: hidden;
+}
+
+/* MEDIA QUARIES PARA PANTALLAS IPHONE 16 */
+
+@media (max-width: 768px) {
+    
+    .hero_text-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        text-align: left;
+    }
+
+    
+    .hero_title {
+        order: 1;
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 16px;
+    }
+
+    .hero_subtitle-container {
+        order: 2;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 24px;
+    }
+
+    
+    .hero_mockup {
+        order: 3;
+        width: 100%;
+        margin: 0 0 24px 0; /* Margen inferior para separarlo del botón que viene abajo */
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .btn.btn--secondary {
+        order: 4;
+        display: block;
+        width: 100% !important; /* Se estira completo en el iPhone */
+        text-align: center;
+        box-sizing: border-box;
+        padding: 14px 0;
+    }
+}

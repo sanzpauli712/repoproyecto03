@@ -5,6 +5,8 @@
     justify-content: space-between;
     border-bottom: 1px solid #E5E5E5;
 
+
+
     &_container {
         display: flex;
         justify-content: space-between;
@@ -20,6 +22,7 @@
         color: rgb(26, 37, 48);
     }
 
+
     &_menu {
         display: flex;
         gap: 40px;
@@ -30,4 +33,30 @@
         color: $color-gris;
         font-style: italic;
     }
+}
+
+/* MEDIA QUARIES PARA PANTALLAS IPHONE 16 */
+
+@media (max-width: 768px) {
+
+    .header {
+        padding: 16px 24px;
+        /* Espaciado idéntico a Figma */
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .header_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* Logo a la izquierda, Hamburguesa a la derecha */
+        align-items: center;
+        width: 100%;
+    }
+
+    .header_logo {
+        font-size: 20px;
+    }
+
 }
